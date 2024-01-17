@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "CcaS3Yg4jsXojrOHmXvj7gHeCg4RhyzbsMhxcWLuacH8Vgw9m0HgXlipakGh9GP0TE18ZYiQ7ggWkQhLpylfWg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\thy-h\\source\\repos\\Ok24\\Harjoituksia 2\\Harjoituksia 2\\Harjoituksia 2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\thy-h\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.26\\microsoft.windowsdesktop.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\thy-h\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.26\\microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\thy-h\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.26\\microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\thy-h\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.26\\microsoft.netcore.app.host.win-x64.6.0.26.nupkg.sha512"
+  ],
+  "logs": []
+}

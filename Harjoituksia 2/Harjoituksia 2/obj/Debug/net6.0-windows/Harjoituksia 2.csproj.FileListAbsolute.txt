@@ -1,0 +1,16 @@
+C:\Users\thy-h\source\repos\CRUD\Harjoituksia 2\Harjoituksia 2\obj\Debug\net6.0-windows\Harjoituksia 2.csproj.GenerateResource.cache
+C:\Users\thy-h\source\repos\CRUD\Harjoituksia 2\Harjoituksia 2\obj\Debug\net6.0-windows\Harjoituksia 2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thy-h\source\repos\CRUD\Harjoituksia 2\Harjoituksia 2\obj\Debug\net6.0-windows\Harjoituksia 2.AssemblyInfoInputs.cache
+C:\Users\thy-h\source\repos\CRUD\Harjoituksia 2\Harjoituksia 2\obj\Debug\net6.0-windows\Harjoituksia 2.AssemblyInfo.cs
+C:\Users\thy-h\source\repos\CRUD\Harjoituksia 2\Harjoituksia 2\obj\Debug\net6.0-windows\Harjoituksia 2.csproj.CoreCompileInputs.cache
+C:\Users\thy-h\source\repos\CRUD\Harjoituksia 2\Harjoituksia 2\obj\Debug\net6.0-windows\Harjoituksia_2.Form2.resources
+C:\Users\thy-h\source\repos\CRUD\Harjoituksia 2\Harjoituksia 2\bin\Debug\net6.0-windows\Harjoituksia 2.exe
+C:\Users\thy-h\source\repos\CRUD\Harjoituksia 2\Harjoituksia 2\bin\Debug\net6.0-windows\Harjoituksia 2.deps.json
+C:\Users\thy-h\source\repos\CRUD\Harjoituksia 2\Harjoituksia 2\bin\Debug\net6.0-windows\Harjoituksia 2.runtimeconfig.json
+C:\Users\thy-h\source\repos\CRUD\Harjoituksia 2\Harjoituksia 2\bin\Debug\net6.0-windows\Harjoituksia 2.dll
+C:\Users\thy-h\source\repos\CRUD\Harjoituksia 2\Harjoituksia 2\bin\Debug\net6.0-windows\Harjoituksia 2.pdb
+C:\Users\thy-h\source\repos\CRUD\Harjoituksia 2\Harjoituksia 2\obj\Debug\net6.0-windows\Harjoituksia 2.dll
+C:\Users\thy-h\source\repos\CRUD\Harjoituksia 2\Harjoituksia 2\obj\Debug\net6.0-windows\refint\Harjoituksia 2.dll
+C:\Users\thy-h\source\repos\CRUD\Harjoituksia 2\Harjoituksia 2\obj\Debug\net6.0-windows\Harjoituksia 2.pdb
+C:\Users\thy-h\source\repos\CRUD\Harjoituksia 2\Harjoituksia 2\obj\Debug\net6.0-windows\Harjoituksia 2.genruntimeconfig.cache
+C:\Users\thy-h\source\repos\CRUD\Harjoituksia 2\Harjoituksia 2\obj\Debug\net6.0-windows\ref\Harjoituksia 2.dll

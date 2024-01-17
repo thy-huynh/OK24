@@ -1,0 +1,16 @@
+C:\Users\thy-h\source\repos\CRUD\CRUD-Projects\CRUD-Projects\obj\Debug\net6.0-windows\CRUD_Projects.Harjoitus.resources
+C:\Users\thy-h\source\repos\CRUD\CRUD-Projects\CRUD-Projects\obj\Debug\net6.0-windows\CRUD-Projects.csproj.GenerateResource.cache
+C:\Users\thy-h\source\repos\CRUD\CRUD-Projects\CRUD-Projects\obj\Debug\net6.0-windows\CRUD-Projects.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thy-h\source\repos\CRUD\CRUD-Projects\CRUD-Projects\obj\Debug\net6.0-windows\CRUD-Projects.AssemblyInfoInputs.cache
+C:\Users\thy-h\source\repos\CRUD\CRUD-Projects\CRUD-Projects\obj\Debug\net6.0-windows\CRUD-Projects.AssemblyInfo.cs
+C:\Users\thy-h\source\repos\CRUD\CRUD-Projects\CRUD-Projects\obj\Debug\net6.0-windows\CRUD-Projects.csproj.CoreCompileInputs.cache
+C:\Users\thy-h\source\repos\CRUD\CRUD-Projects\CRUD-Projects\bin\Debug\net6.0-windows\CRUD-Projects.exe
+C:\Users\thy-h\source\repos\CRUD\CRUD-Projects\CRUD-Projects\bin\Debug\net6.0-windows\CRUD-Projects.deps.json
+C:\Users\thy-h\source\repos\CRUD\CRUD-Projects\CRUD-Projects\bin\Debug\net6.0-windows\CRUD-Projects.runtimeconfig.json
+C:\Users\thy-h\source\repos\CRUD\CRUD-Projects\CRUD-Projects\bin\Debug\net6.0-windows\CRUD-Projects.dll
+C:\Users\thy-h\source\repos\CRUD\CRUD-Projects\CRUD-Projects\bin\Debug\net6.0-windows\CRUD-Projects.pdb
+C:\Users\thy-h\source\repos\CRUD\CRUD-Projects\CRUD-Projects\obj\Debug\net6.0-windows\CRUD-Projects.dll
+C:\Users\thy-h\source\repos\CRUD\CRUD-Projects\CRUD-Projects\obj\Debug\net6.0-windows\refint\CRUD-Projects.dll
+C:\Users\thy-h\source\repos\CRUD\CRUD-Projects\CRUD-Projects\obj\Debug\net6.0-windows\CRUD-Projects.pdb
+C:\Users\thy-h\source\repos\CRUD\CRUD-Projects\CRUD-Projects\obj\Debug\net6.0-windows\CRUD-Projects.genruntimeconfig.cache
+C:\Users\thy-h\source\repos\CRUD\CRUD-Projects\CRUD-Projects\obj\Debug\net6.0-windows\ref\CRUD-Projects.dll

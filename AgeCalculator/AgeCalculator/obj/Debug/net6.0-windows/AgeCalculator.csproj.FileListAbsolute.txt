@@ -1,0 +1,16 @@
+C:\Users\thy-h\source\repos\CRUD\AgeCalculator\AgeCalculator\bin\Debug\net6.0-windows\AgeCalculator.exe
+C:\Users\thy-h\source\repos\CRUD\AgeCalculator\AgeCalculator\bin\Debug\net6.0-windows\AgeCalculator.deps.json
+C:\Users\thy-h\source\repos\CRUD\AgeCalculator\AgeCalculator\bin\Debug\net6.0-windows\AgeCalculator.runtimeconfig.json
+C:\Users\thy-h\source\repos\CRUD\AgeCalculator\AgeCalculator\bin\Debug\net6.0-windows\AgeCalculator.dll
+C:\Users\thy-h\source\repos\CRUD\AgeCalculator\AgeCalculator\bin\Debug\net6.0-windows\AgeCalculator.pdb
+C:\Users\thy-h\source\repos\CRUD\AgeCalculator\AgeCalculator\obj\Debug\net6.0-windows\AgeCalculator.IkaForm.resources
+C:\Users\thy-h\source\repos\CRUD\AgeCalculator\AgeCalculator\obj\Debug\net6.0-windows\AgeCalculator.csproj.GenerateResource.cache
+C:\Users\thy-h\source\repos\CRUD\AgeCalculator\AgeCalculator\obj\Debug\net6.0-windows\AgeCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thy-h\source\repos\CRUD\AgeCalculator\AgeCalculator\obj\Debug\net6.0-windows\AgeCalculator.AssemblyInfoInputs.cache
+C:\Users\thy-h\source\repos\CRUD\AgeCalculator\AgeCalculator\obj\Debug\net6.0-windows\AgeCalculator.AssemblyInfo.cs
+C:\Users\thy-h\source\repos\CRUD\AgeCalculator\AgeCalculator\obj\Debug\net6.0-windows\AgeCalculator.csproj.CoreCompileInputs.cache
+C:\Users\thy-h\source\repos\CRUD\AgeCalculator\AgeCalculator\obj\Debug\net6.0-windows\AgeCalculator.dll
+C:\Users\thy-h\source\repos\CRUD\AgeCalculator\AgeCalculator\obj\Debug\net6.0-windows\refint\AgeCalculator.dll
+C:\Users\thy-h\source\repos\CRUD\AgeCalculator\AgeCalculator\obj\Debug\net6.0-windows\AgeCalculator.pdb
+C:\Users\thy-h\source\repos\CRUD\AgeCalculator\AgeCalculator\obj\Debug\net6.0-windows\AgeCalculator.genruntimeconfig.cache
+C:\Users\thy-h\source\repos\CRUD\AgeCalculator\AgeCalculator\obj\Debug\net6.0-windows\ref\AgeCalculator.dll
