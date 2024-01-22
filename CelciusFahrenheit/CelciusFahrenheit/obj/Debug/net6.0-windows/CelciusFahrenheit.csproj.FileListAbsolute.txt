@@ -1,0 +1,17 @@
+C:\Users\pham.huynh\source\Repos\Ok24\CelciusFahrenheit\CelciusFahrenheit\bin\Debug\net6.0-windows\CelciusFahrenheit.exe
+C:\Users\pham.huynh\source\Repos\Ok24\CelciusFahrenheit\CelciusFahrenheit\bin\Debug\net6.0-windows\CelciusFahrenheit.deps.json
+C:\Users\pham.huynh\source\Repos\Ok24\CelciusFahrenheit\CelciusFahrenheit\bin\Debug\net6.0-windows\CelciusFahrenheit.runtimeconfig.json
+C:\Users\pham.huynh\source\Repos\Ok24\CelciusFahrenheit\CelciusFahrenheit\bin\Debug\net6.0-windows\CelciusFahrenheit.dll
+C:\Users\pham.huynh\source\Repos\Ok24\CelciusFahrenheit\CelciusFahrenheit\bin\Debug\net6.0-windows\CelciusFahrenheit.pdb
+C:\Users\pham.huynh\source\Repos\Ok24\CelciusFahrenheit\CelciusFahrenheit\obj\Debug\net6.0-windows\CelciusFahrenheit.csproj.AssemblyReference.cache
+C:\Users\pham.huynh\source\Repos\Ok24\CelciusFahrenheit\CelciusFahrenheit\obj\Debug\net6.0-windows\CelciusFahrenheit.Form1.resources
+C:\Users\pham.huynh\source\Repos\Ok24\CelciusFahrenheit\CelciusFahrenheit\obj\Debug\net6.0-windows\CelciusFahrenheit.csproj.GenerateResource.cache
+C:\Users\pham.huynh\source\Repos\Ok24\CelciusFahrenheit\CelciusFahrenheit\obj\Debug\net6.0-windows\CelciusFahrenheit.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pham.huynh\source\Repos\Ok24\CelciusFahrenheit\CelciusFahrenheit\obj\Debug\net6.0-windows\CelciusFahrenheit.AssemblyInfoInputs.cache
+C:\Users\pham.huynh\source\Repos\Ok24\CelciusFahrenheit\CelciusFahrenheit\obj\Debug\net6.0-windows\CelciusFahrenheit.AssemblyInfo.cs
+C:\Users\pham.huynh\source\Repos\Ok24\CelciusFahrenheit\CelciusFahrenheit\obj\Debug\net6.0-windows\CelciusFahrenheit.csproj.CoreCompileInputs.cache
+C:\Users\pham.huynh\source\Repos\Ok24\CelciusFahrenheit\CelciusFahrenheit\obj\Debug\net6.0-windows\CelciusFahrenheit.dll
+C:\Users\pham.huynh\source\Repos\Ok24\CelciusFahrenheit\CelciusFahrenheit\obj\Debug\net6.0-windows\refint\CelciusFahrenheit.dll
+C:\Users\pham.huynh\source\Repos\Ok24\CelciusFahrenheit\CelciusFahrenheit\obj\Debug\net6.0-windows\CelciusFahrenheit.pdb
+C:\Users\pham.huynh\source\Repos\Ok24\CelciusFahrenheit\CelciusFahrenheit\obj\Debug\net6.0-windows\CelciusFahrenheit.genruntimeconfig.cache
+C:\Users\pham.huynh\source\Repos\Ok24\CelciusFahrenheit\CelciusFahrenheit\obj\Debug\net6.0-windows\ref\CelciusFahrenheit.dll
