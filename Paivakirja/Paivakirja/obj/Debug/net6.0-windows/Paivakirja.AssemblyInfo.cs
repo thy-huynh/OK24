@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Paivakirja")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d80a64a2a74954bd6652c22ae03784319dbc0bb")]
 [assembly: System.Reflection.AssemblyProductAttribute("Paivakirja")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Paivakirja")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

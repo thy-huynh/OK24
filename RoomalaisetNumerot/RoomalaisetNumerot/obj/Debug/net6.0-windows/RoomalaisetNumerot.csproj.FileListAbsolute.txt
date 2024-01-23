@@ -1,0 +1,8 @@
+C:\Users\thy-h\source\repos\Ok24\RoomalaisetNumerot\RoomalaisetNumerot\obj\Debug\net6.0-windows\RoomalaisetNumerot.RoomalaisiksiForm.resources
+C:\Users\thy-h\source\repos\Ok24\RoomalaisetNumerot\RoomalaisetNumerot\obj\Debug\net6.0-windows\RoomalaisetNumerot.Properties.Resources.resources
+C:\Users\thy-h\source\repos\Ok24\RoomalaisetNumerot\RoomalaisetNumerot\obj\Debug\net6.0-windows\RoomalaisetNumerot.csproj.GenerateResource.cache
+C:\Users\thy-h\source\repos\Ok24\RoomalaisetNumerot\RoomalaisetNumerot\obj\Debug\net6.0-windows\RoomalaisetNumerot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thy-h\source\repos\Ok24\RoomalaisetNumerot\RoomalaisetNumerot\obj\Debug\net6.0-windows\RoomalaisetNumerot.AssemblyInfoInputs.cache
+C:\Users\thy-h\source\repos\Ok24\RoomalaisetNumerot\RoomalaisetNumerot\obj\Debug\net6.0-windows\RoomalaisetNumerot.AssemblyInfo.cs
+C:\Users\thy-h\source\repos\Ok24\RoomalaisetNumerot\RoomalaisetNumerot\obj\Debug\net6.0-windows\RoomalaisetNumerot.csproj.CoreCompileInputs.cache
+C:\Users\thy-h\source\repos\Ok24\RoomalaisetNumerot\RoomalaisetNumerot\obj\Debug\net6.0-windows\RoomalaisetNumerot.sourcelink.json

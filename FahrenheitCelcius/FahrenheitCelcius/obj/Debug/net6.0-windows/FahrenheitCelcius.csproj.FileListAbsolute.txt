@@ -1,0 +1,17 @@
+C:\Users\thy-h\source\repos\Ok24\FahrenheitCelcius\FahrenheitCelcius\bin\Debug\net6.0-windows\FahrenheitCelcius.exe
+C:\Users\thy-h\source\repos\Ok24\FahrenheitCelcius\FahrenheitCelcius\bin\Debug\net6.0-windows\FahrenheitCelcius.deps.json
+C:\Users\thy-h\source\repos\Ok24\FahrenheitCelcius\FahrenheitCelcius\bin\Debug\net6.0-windows\FahrenheitCelcius.runtimeconfig.json
+C:\Users\thy-h\source\repos\Ok24\FahrenheitCelcius\FahrenheitCelcius\bin\Debug\net6.0-windows\FahrenheitCelcius.dll
+C:\Users\thy-h\source\repos\Ok24\FahrenheitCelcius\FahrenheitCelcius\bin\Debug\net6.0-windows\FahrenheitCelcius.pdb
+C:\Users\thy-h\source\repos\Ok24\FahrenheitCelcius\FahrenheitCelcius\obj\Debug\net6.0-windows\FahrenheitCelcius.Form1.resources
+C:\Users\thy-h\source\repos\Ok24\FahrenheitCelcius\FahrenheitCelcius\obj\Debug\net6.0-windows\FahrenheitCelcius.csproj.GenerateResource.cache
+C:\Users\thy-h\source\repos\Ok24\FahrenheitCelcius\FahrenheitCelcius\obj\Debug\net6.0-windows\FahrenheitCelcius.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thy-h\source\repos\Ok24\FahrenheitCelcius\FahrenheitCelcius\obj\Debug\net6.0-windows\FahrenheitCelcius.AssemblyInfoInputs.cache
+C:\Users\thy-h\source\repos\Ok24\FahrenheitCelcius\FahrenheitCelcius\obj\Debug\net6.0-windows\FahrenheitCelcius.AssemblyInfo.cs
+C:\Users\thy-h\source\repos\Ok24\FahrenheitCelcius\FahrenheitCelcius\obj\Debug\net6.0-windows\FahrenheitCelcius.csproj.CoreCompileInputs.cache
+C:\Users\thy-h\source\repos\Ok24\FahrenheitCelcius\FahrenheitCelcius\obj\Debug\net6.0-windows\FahrenheitCelcius.sourcelink.json
+C:\Users\thy-h\source\repos\Ok24\FahrenheitCelcius\FahrenheitCelcius\obj\Debug\net6.0-windows\FahrenheitCelcius.dll
+C:\Users\thy-h\source\repos\Ok24\FahrenheitCelcius\FahrenheitCelcius\obj\Debug\net6.0-windows\refint\FahrenheitCelcius.dll
+C:\Users\thy-h\source\repos\Ok24\FahrenheitCelcius\FahrenheitCelcius\obj\Debug\net6.0-windows\FahrenheitCelcius.pdb
+C:\Users\thy-h\source\repos\Ok24\FahrenheitCelcius\FahrenheitCelcius\obj\Debug\net6.0-windows\FahrenheitCelcius.genruntimeconfig.cache
+C:\Users\thy-h\source\repos\Ok24\FahrenheitCelcius\FahrenheitCelcius\obj\Debug\net6.0-windows\ref\FahrenheitCelcius.dll

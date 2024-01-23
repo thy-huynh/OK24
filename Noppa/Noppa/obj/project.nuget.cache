@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "XDHkSsIKz1hx6e+1/pCn1suTPMtwOxyAwt/SkIE9h2Sx+J8oErwCFM2xyPqtO18qWqnnsoUw/RhJm1hCVL3Mlg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\thy-h\\source\\repos\\Ok24\\Noppa\\Noppa\\Noppa.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\thy-h\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.26\\microsoft.windowsdesktop.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\thy-h\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.26\\microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\thy-h\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.26\\microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\thy-h\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.26\\microsoft.netcore.app.host.win-x64.6.0.26.nupkg.sha512"
+  ],
+  "logs": []
+}

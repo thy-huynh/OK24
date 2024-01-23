@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sbDLiGnn/CcOg47xXNzREPczpPjO93MfcNCrbtFNHpv8XWs7oQMh4oe7Oi0qeeRoy2bMsrEa0jZJgZiG+zRpWQ==",
+  "dgSpecHash": "VzUy8PlevnYazTqCtEPosWK228vN8ROMdM1iMrKVq0/X+CNJTyDDV8f7EWdDzXyRI75Lh240d6qiu2d7+s2vog==",
   "success": true,
-  "projectFilePath": "C:\\Users\\thy-h\\source\\repos\\CRUD\\CRUD-Projects\\CRUD-Projects\\CRUD-Projects.csproj",
+  "projectFilePath": "C:\\Users\\thy-h\\source\\repos\\Ok24\\CRUD-Projects\\CRUD-Projects\\CRUD-Projects.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\thy-h\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.26\\microsoft.windowsdesktop.app.ref.6.0.26.nupkg.sha512",
     "C:\\Users\\thy-h\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.26\\microsoft.netcore.app.ref.6.0.26.nupkg.sha512",

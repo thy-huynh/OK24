@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "VbJhPkU2wOBaJA5ZEnhIUMsgvaLmhI/AWib47JDptm12udgqt13vFs8uqUQLe1RWRkJ5JIuYAEAPa/EVqYHhgQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\thy-h\\source\\repos\\Ok24\\RoomalaisetNumerot\\RoomalaisetNumerot\\RoomalaisetNumerot.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\thy-h\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.26\\microsoft.windowsdesktop.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\thy-h\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.26\\microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\thy-h\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.26\\microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\thy-h\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.26\\microsoft.netcore.app.host.win-x64.6.0.26.nupkg.sha512"
+  ],
+  "logs": []
+}

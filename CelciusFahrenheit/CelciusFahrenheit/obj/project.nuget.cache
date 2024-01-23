@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "GTpqG5lHDYjL3Azf4mMX/sx7taU5QSwnNhTmOWu9XNyn1SM0uYcVCc7yH1QT+Jr5fCSqauHakMXtpI3lmP80hQ==",
+  "dgSpecHash": "H7kwDroclWhD08Pfiv1zQFQTc/5r1PZYcnlP45IGlit7RlooF8F9o/n3D3arzuvWzVHNRedKKS1wVOgam9kgfQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pham.huynh\\source\\Repos\\Ok24\\CelciusFahrenheit\\CelciusFahrenheit\\CelciusFahrenheit.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\thy-h\\Source\\Repos\\Ok24\\CelciusFahrenheit\\CelciusFahrenheit\\CelciusFahrenheit.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\thy-h\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.26\\microsoft.windowsdesktop.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\thy-h\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.26\\microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\thy-h\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.26\\microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\thy-h\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.26\\microsoft.netcore.app.host.win-x64.6.0.26.nupkg.sha512"
+  ],
   "logs": []
 }
