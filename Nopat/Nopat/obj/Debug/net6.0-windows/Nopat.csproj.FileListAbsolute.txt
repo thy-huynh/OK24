@@ -1,8 +1,0 @@
-C:\Users\pham.huynh\source\Repos\Ok24\Nopat\Nopat\obj\Debug\net6.0-windows\Nopat.csproj.AssemblyReference.cache
-C:\Users\pham.huynh\source\Repos\Ok24\Nopat\Nopat\obj\Debug\net6.0-windows\Nopat.Form1.resources
-C:\Users\pham.huynh\source\Repos\Ok24\Nopat\Nopat\obj\Debug\net6.0-windows\Nopat.Properties.Resources.resources
-C:\Users\pham.huynh\source\Repos\Ok24\Nopat\Nopat\obj\Debug\net6.0-windows\Nopat.csproj.GenerateResource.cache
-C:\Users\pham.huynh\source\Repos\Ok24\Nopat\Nopat\obj\Debug\net6.0-windows\Nopat.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\pham.huynh\source\Repos\Ok24\Nopat\Nopat\obj\Debug\net6.0-windows\Nopat.AssemblyInfoInputs.cache
-C:\Users\pham.huynh\source\Repos\Ok24\Nopat\Nopat\obj\Debug\net6.0-windows\Nopat.AssemblyInfo.cs
-C:\Users\pham.huynh\source\Repos\Ok24\Nopat\Nopat\obj\Debug\net6.0-windows\Nopat.csproj.CoreCompileInputs.cache
