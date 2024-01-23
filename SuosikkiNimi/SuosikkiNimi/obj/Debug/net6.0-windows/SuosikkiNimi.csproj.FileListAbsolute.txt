@@ -1,0 +1,17 @@
+C:\Users\pham.huynh\source\Repos\Ok24\SuosikkiNimi\SuosikkiNimi\bin\Debug\net6.0-windows\SuosikkiNimi.exe
+C:\Users\pham.huynh\source\Repos\Ok24\SuosikkiNimi\SuosikkiNimi\bin\Debug\net6.0-windows\SuosikkiNimi.deps.json
+C:\Users\pham.huynh\source\Repos\Ok24\SuosikkiNimi\SuosikkiNimi\bin\Debug\net6.0-windows\SuosikkiNimi.runtimeconfig.json
+C:\Users\pham.huynh\source\Repos\Ok24\SuosikkiNimi\SuosikkiNimi\bin\Debug\net6.0-windows\SuosikkiNimi.dll
+C:\Users\pham.huynh\source\Repos\Ok24\SuosikkiNimi\SuosikkiNimi\bin\Debug\net6.0-windows\SuosikkiNimi.pdb
+C:\Users\pham.huynh\source\Repos\Ok24\SuosikkiNimi\SuosikkiNimi\obj\Debug\net6.0-windows\SuosikkiNimi.csproj.AssemblyReference.cache
+C:\Users\pham.huynh\source\Repos\Ok24\SuosikkiNimi\SuosikkiNimi\obj\Debug\net6.0-windows\SuosikkiNimi.SuosikkiForm.resources
+C:\Users\pham.huynh\source\Repos\Ok24\SuosikkiNimi\SuosikkiNimi\obj\Debug\net6.0-windows\SuosikkiNimi.csproj.GenerateResource.cache
+C:\Users\pham.huynh\source\Repos\Ok24\SuosikkiNimi\SuosikkiNimi\obj\Debug\net6.0-windows\SuosikkiNimi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pham.huynh\source\Repos\Ok24\SuosikkiNimi\SuosikkiNimi\obj\Debug\net6.0-windows\SuosikkiNimi.AssemblyInfoInputs.cache
+C:\Users\pham.huynh\source\Repos\Ok24\SuosikkiNimi\SuosikkiNimi\obj\Debug\net6.0-windows\SuosikkiNimi.AssemblyInfo.cs
+C:\Users\pham.huynh\source\Repos\Ok24\SuosikkiNimi\SuosikkiNimi\obj\Debug\net6.0-windows\SuosikkiNimi.csproj.CoreCompileInputs.cache
+C:\Users\pham.huynh\source\Repos\Ok24\SuosikkiNimi\SuosikkiNimi\obj\Debug\net6.0-windows\SuosikkiNimi.dll
+C:\Users\pham.huynh\source\Repos\Ok24\SuosikkiNimi\SuosikkiNimi\obj\Debug\net6.0-windows\refint\SuosikkiNimi.dll
+C:\Users\pham.huynh\source\Repos\Ok24\SuosikkiNimi\SuosikkiNimi\obj\Debug\net6.0-windows\SuosikkiNimi.pdb
+C:\Users\pham.huynh\source\Repos\Ok24\SuosikkiNimi\SuosikkiNimi\obj\Debug\net6.0-windows\SuosikkiNimi.genruntimeconfig.cache
+C:\Users\pham.huynh\source\Repos\Ok24\SuosikkiNimi\SuosikkiNimi\obj\Debug\net6.0-windows\ref\SuosikkiNimi.dll
