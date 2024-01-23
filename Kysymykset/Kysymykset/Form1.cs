@@ -26,8 +26,9 @@ namespace Kysymykset
                 RadioButton radioButton = (RadioButton)sender;
                 vastaukset[laskuri] = radioButton.Text;
 
-                laskuri++;
+                
                 KysymysLB.Text = "Vastaus " + (laskuri) + ". kysymykseen:";
+                laskuri++;
             }
             else
             {

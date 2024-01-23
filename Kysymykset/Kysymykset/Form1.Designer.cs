@@ -28,125 +28,124 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.KysymysLB = new System.Windows.Forms.Label();
-            this.VastausLB = new System.Windows.Forms.Label();
-            this.VastausGB = new System.Windows.Forms.GroupBox();
-            this.DummyRB = new System.Windows.Forms.RadioButton();
-            this.VastausARB = new System.Windows.Forms.RadioButton();
-            this.VastausCRB = new System.Windows.Forms.RadioButton();
-            this.VastausBRB = new System.Windows.Forms.RadioButton();
-            this.VastausDRB = new System.Windows.Forms.RadioButton();
-            this.VastausGB.SuspendLayout();
-            this.SuspendLayout();
+            KysymysLB = new Label();
+            VastausLB = new Label();
+            VastausGB = new GroupBox();
+            VastausDRB = new RadioButton();
+            VastausBRB = new RadioButton();
+            VastausCRB = new RadioButton();
+            VastausARB = new RadioButton();
+            DummyRB = new RadioButton();
+            VastausGB.SuspendLayout();
+            SuspendLayout();
             // 
             // KysymysLB
             // 
-            this.KysymysLB.AutoSize = true;
-            this.KysymysLB.Location = new System.Drawing.Point(26, 32);
-            this.KysymysLB.Name = "KysymysLB";
-            this.KysymysLB.Size = new System.Drawing.Size(207, 25);
-            this.KysymysLB.TabIndex = 0;
-            this.KysymysLB.Text = "Vastaus 1.kysymykseen:";
+            KysymysLB.AutoSize = true;
+            KysymysLB.Location = new Point(26, 32);
+            KysymysLB.Name = "KysymysLB";
+            KysymysLB.Size = new Size(264, 32);
+            KysymysLB.TabIndex = 0;
+            KysymysLB.Text = "Vastaus 1.kysymykseen:";
             // 
             // VastausLB
             // 
-            this.VastausLB.AutoSize = true;
-            this.VastausLB.Location = new System.Drawing.Point(26, 181);
-            this.VastausLB.Name = "VastausLB";
-            this.VastausLB.Size = new System.Drawing.Size(76, 25);
-            this.VastausLB.TabIndex = 1;
-            this.VastausLB.Text = "Vastaus";
-            this.VastausLB.Visible = false;
+            VastausLB.AutoSize = true;
+            VastausLB.Location = new Point(26, 181);
+            VastausLB.Name = "VastausLB";
+            VastausLB.Size = new Size(93, 32);
+            VastausLB.TabIndex = 1;
+            VastausLB.Text = "Vastaus";
+            VastausLB.Visible = false;
             // 
             // VastausGB
             // 
-            this.VastausGB.Controls.Add(this.VastausDRB);
-            this.VastausGB.Controls.Add(this.VastausBRB);
-            this.VastausGB.Controls.Add(this.VastausCRB);
-            this.VastausGB.Controls.Add(this.VastausARB);
-            this.VastausGB.Controls.Add(this.DummyRB);
-            this.VastausGB.Location = new System.Drawing.Point(250, 32);
-            this.VastausGB.Name = "VastausGB";
-            this.VastausGB.Size = new System.Drawing.Size(125, 174);
-            this.VastausGB.TabIndex = 2;
-            this.VastausGB.TabStop = false;
-            this.VastausGB.Text = "Vastaus";
-            // 
-            // DummyRB
-            // 
-            this.DummyRB.AutoCheck = false;
-            this.DummyRB.AutoSize = true;
-            this.DummyRB.Location = new System.Drawing.Point(6, 30);
-            this.DummyRB.Name = "DummyRB";
-            this.DummyRB.Size = new System.Drawing.Size(40, 29);
-            this.DummyRB.TabIndex = 0;
-            this.DummyRB.TabStop = true;
-            this.DummyRB.Text = "E";
-            this.DummyRB.UseVisualStyleBackColor = true;
-            this.DummyRB.Visible = false;
-            // 
-            // VastausARB
-            // 
-            this.VastausARB.AutoSize = true;
-            this.VastausARB.Location = new System.Drawing.Point(6, 30);
-            this.VastausARB.Name = "VastausARB";
-            this.VastausARB.Size = new System.Drawing.Size(42, 29);
-            this.VastausARB.TabIndex = 1;
-            this.VastausARB.TabStop = true;
-            this.VastausARB.Text = "A";
-            this.VastausARB.UseVisualStyleBackColor = true;
-            // 
-            // VastausCRB
-            // 
-            this.VastausCRB.AutoSize = true;
-            this.VastausCRB.Location = new System.Drawing.Point(7, 100);
-            this.VastausCRB.Name = "VastausCRB";
-            this.VastausCRB.Size = new System.Drawing.Size(42, 29);
-            this.VastausCRB.TabIndex = 2;
-            this.VastausCRB.TabStop = true;
-            this.VastausCRB.Text = "C";
-            this.VastausCRB.UseVisualStyleBackColor = true;
-            // 
-            // VastausBRB
-            // 
-            this.VastausBRB.AutoSize = true;
-            this.VastausBRB.Location = new System.Drawing.Point(6, 65);
-            this.VastausBRB.Name = "VastausBRB";
-            this.VastausBRB.Size = new System.Drawing.Size(41, 29);
-            this.VastausBRB.TabIndex = 3;
-            this.VastausBRB.TabStop = true;
-            this.VastausBRB.Text = "B";
-            this.VastausBRB.UseVisualStyleBackColor = true;
+            VastausGB.Controls.Add(VastausDRB);
+            VastausGB.Controls.Add(VastausBRB);
+            VastausGB.Controls.Add(VastausCRB);
+            VastausGB.Controls.Add(VastausARB);
+            VastausGB.Controls.Add(DummyRB);
+            VastausGB.Location = new Point(296, 12);
+            VastausGB.Name = "VastausGB";
+            VastausGB.Size = new Size(122, 179);
+            VastausGB.TabIndex = 2;
+            VastausGB.TabStop = false;
+            VastausGB.Text = "Vastaus";
             // 
             // VastausDRB
             // 
-            this.VastausDRB.AutoSize = true;
-            this.VastausDRB.Location = new System.Drawing.Point(7, 133);
-            this.VastausDRB.Name = "VastausDRB";
-            this.VastausDRB.Size = new System.Drawing.Size(43, 29);
-            this.VastausDRB.TabIndex = 4;
-            this.VastausDRB.TabStop = true;
-            this.VastausDRB.Text = "D";
-            this.VastausDRB.UseVisualStyleBackColor = true;
+            VastausDRB.AutoSize = true;
+            VastausDRB.Location = new Point(7, 132);
+            VastausDRB.Name = "VastausDRB";
+            VastausDRB.Size = new Size(52, 36);
+            VastausDRB.TabIndex = 4;
+            VastausDRB.TabStop = true;
+            VastausDRB.Text = "D";
+            VastausDRB.UseVisualStyleBackColor = true;
+            // 
+            // VastausBRB
+            // 
+            VastausBRB.AutoSize = true;
+            VastausBRB.Location = new Point(8, 70);
+            VastausBRB.Name = "VastausBRB";
+            VastausBRB.Size = new Size(49, 36);
+            VastausBRB.TabIndex = 3;
+            VastausBRB.TabStop = true;
+            VastausBRB.Text = "B";
+            VastausBRB.UseVisualStyleBackColor = true;
+            // 
+            // VastausCRB
+            // 
+            VastausCRB.AutoSize = true;
+            VastausCRB.Location = new Point(8, 101);
+            VastausCRB.Name = "VastausCRB";
+            VastausCRB.Size = new Size(50, 36);
+            VastausCRB.TabIndex = 2;
+            VastausCRB.TabStop = true;
+            VastausCRB.Text = "C";
+            VastausCRB.UseVisualStyleBackColor = true;
+            // 
+            // VastausARB
+            // 
+            VastausARB.AutoSize = true;
+            VastausARB.Location = new Point(7, 38);
+            VastausARB.Name = "VastausARB";
+            VastausARB.Size = new Size(50, 36);
+            VastausARB.TabIndex = 1;
+            VastausARB.TabStop = true;
+            VastausARB.Text = "A";
+            VastausARB.UseVisualStyleBackColor = true;
+            // 
+            // DummyRB
+            // 
+            DummyRB.AutoCheck = false;
+            DummyRB.AutoSize = true;
+            DummyRB.Location = new Point(7, 38);
+            DummyRB.Name = "DummyRB";
+            DummyRB.Size = new Size(47, 36);
+            DummyRB.TabIndex = 0;
+            DummyRB.TabStop = true;
+            DummyRB.Text = "E";
+            DummyRB.UseVisualStyleBackColor = true;
+            DummyRB.Visible = false;
             // 
             // VastauslomakeFORM
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(395, 225);
-            this.Controls.Add(this.VastausGB);
-            this.Controls.Add(this.VastausLB);
-            this.Controls.Add(this.KysymysLB);
-            this.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.Name = "VastauslomakeFORM";
-            this.Text = "Vastauslomake";
-            this.Load += new System.EventHandler(this.VastauslomakeFORM_Load);
-            this.VastausGB.ResumeLayout(false);
-            this.VastausGB.PerformLayout();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(13F, 32F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(461, 258);
+            Controls.Add(VastausGB);
+            Controls.Add(VastausLB);
+            Controls.Add(KysymysLB);
+            Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            Margin = new Padding(5);
+            Name = "VastauslomakeFORM";
+            Text = "Vastauslomake";
+            Load += VastauslomakeFORM_Load;
+            VastausGB.ResumeLayout(false);
+            VastausGB.PerformLayout();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
