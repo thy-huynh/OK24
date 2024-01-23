@@ -1,0 +1,17 @@
+C:\Users\pham.huynh\source\Repos\Ok24\Kysymykset\Kysymykset\bin\Debug\net6.0-windows\Kysymykset.exe
+C:\Users\pham.huynh\source\Repos\Ok24\Kysymykset\Kysymykset\bin\Debug\net6.0-windows\Kysymykset.deps.json
+C:\Users\pham.huynh\source\Repos\Ok24\Kysymykset\Kysymykset\bin\Debug\net6.0-windows\Kysymykset.runtimeconfig.json
+C:\Users\pham.huynh\source\Repos\Ok24\Kysymykset\Kysymykset\bin\Debug\net6.0-windows\Kysymykset.dll
+C:\Users\pham.huynh\source\Repos\Ok24\Kysymykset\Kysymykset\bin\Debug\net6.0-windows\Kysymykset.pdb
+C:\Users\pham.huynh\source\Repos\Ok24\Kysymykset\Kysymykset\obj\Debug\net6.0-windows\Kysymykset.csproj.AssemblyReference.cache
+C:\Users\pham.huynh\source\Repos\Ok24\Kysymykset\Kysymykset\obj\Debug\net6.0-windows\Kysymykset.VastauslomakeFORM.resources
+C:\Users\pham.huynh\source\Repos\Ok24\Kysymykset\Kysymykset\obj\Debug\net6.0-windows\Kysymykset.csproj.GenerateResource.cache
+C:\Users\pham.huynh\source\Repos\Ok24\Kysymykset\Kysymykset\obj\Debug\net6.0-windows\Kysymykset.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pham.huynh\source\Repos\Ok24\Kysymykset\Kysymykset\obj\Debug\net6.0-windows\Kysymykset.AssemblyInfoInputs.cache
+C:\Users\pham.huynh\source\Repos\Ok24\Kysymykset\Kysymykset\obj\Debug\net6.0-windows\Kysymykset.AssemblyInfo.cs
+C:\Users\pham.huynh\source\Repos\Ok24\Kysymykset\Kysymykset\obj\Debug\net6.0-windows\Kysymykset.csproj.CoreCompileInputs.cache
+C:\Users\pham.huynh\source\Repos\Ok24\Kysymykset\Kysymykset\obj\Debug\net6.0-windows\Kysymykset.dll
+C:\Users\pham.huynh\source\Repos\Ok24\Kysymykset\Kysymykset\obj\Debug\net6.0-windows\refint\Kysymykset.dll
+C:\Users\pham.huynh\source\Repos\Ok24\Kysymykset\Kysymykset\obj\Debug\net6.0-windows\Kysymykset.pdb
+C:\Users\pham.huynh\source\Repos\Ok24\Kysymykset\Kysymykset\obj\Debug\net6.0-windows\Kysymykset.genruntimeconfig.cache
+C:\Users\pham.huynh\source\Repos\Ok24\Kysymykset\Kysymykset\obj\Debug\net6.0-windows\ref\Kysymykset.dll
