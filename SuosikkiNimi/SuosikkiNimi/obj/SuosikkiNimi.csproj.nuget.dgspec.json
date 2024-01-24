@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pham.huynh\\source\\Repos\\Ok24\\SuosikkiNimi\\SuosikkiNimi\\SuosikkiNimi.csproj": {}
+    "C:\\Users\\pham.huynh\\Source\\Repos\\Ok24\\SuosikkiNimi\\SuosikkiNimi\\SuosikkiNimi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pham.huynh\\source\\Repos\\Ok24\\SuosikkiNimi\\SuosikkiNimi\\SuosikkiNimi.csproj": {
+    "C:\\Users\\pham.huynh\\Source\\Repos\\Ok24\\SuosikkiNimi\\SuosikkiNimi\\SuosikkiNimi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pham.huynh\\source\\Repos\\Ok24\\SuosikkiNimi\\SuosikkiNimi\\SuosikkiNimi.csproj",
+        "projectUniqueName": "C:\\Users\\pham.huynh\\Source\\Repos\\Ok24\\SuosikkiNimi\\SuosikkiNimi\\SuosikkiNimi.csproj",
         "projectName": "SuosikkiNimi",
-        "projectPath": "C:\\Users\\pham.huynh\\source\\Repos\\Ok24\\SuosikkiNimi\\SuosikkiNimi\\SuosikkiNimi.csproj",
+        "projectPath": "C:\\Users\\pham.huynh\\Source\\Repos\\Ok24\\SuosikkiNimi\\SuosikkiNimi\\SuosikkiNimi.csproj",
         "packagesPath": "C:\\Users\\pham.huynh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pham.huynh\\source\\Repos\\Ok24\\SuosikkiNimi\\SuosikkiNimi\\obj\\",
+        "outputPath": "C:\\Users\\pham.huynh\\Source\\Repos\\Ok24\\SuosikkiNimi\\SuosikkiNimi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

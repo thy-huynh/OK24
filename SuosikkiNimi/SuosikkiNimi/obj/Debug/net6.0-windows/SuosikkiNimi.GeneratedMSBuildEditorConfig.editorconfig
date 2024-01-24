@@ -14,6 +14,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SuosikkiNimi
-build_property.ProjectDir = C:\Users\thy-h\source\repos\Ok24\SuosikkiNimi\SuosikkiNimi\
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.ProjectDir = C:\Users\pham.huynh\Source\Repos\Ok24\SuosikkiNimi\SuosikkiNimi\
