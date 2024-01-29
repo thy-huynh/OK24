@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Kysymykset")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2db063a5d2e7834c5b151a548fcc135999bbd92a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Kysymykset")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Kysymykset")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

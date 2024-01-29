@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RoomalaisetNumerot")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a05a57d86111edc9d7d7061b1f9ae6372c1bac84")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("RoomalaisetNumerot")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RoomalaisetNumerot")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
