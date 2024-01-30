@@ -28,276 +28,318 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.NoteRTB = new System.Windows.Forms.RichTextBox();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.uusiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.avaaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.avaaToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.tallennaNimelläToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
-            this.uusiToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.tulostaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.tulostukseEsikatseluToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripSeparator();
-            this.poistuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.muokkaaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.muotoileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.undoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.redoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripSeparator();
-            this.copyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pasteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.deleteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cropAllToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.kirjasinToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.tekstinKorotusToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.tekstinRivitysToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.apuaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.tietoaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStrip1.SuspendLayout();
-            this.SuspendLayout();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(NoteForm));
+            NoteRTB = new RichTextBox();
+            menuStrip1 = new MenuStrip();
+            fileToolStripMenuItem = new ToolStripMenuItem();
+            uusiToolStripMenuItem = new ToolStripMenuItem();
+            avaaToolStripMenuItem = new ToolStripMenuItem();
+            tallennaToolStripMenuItem = new ToolStripMenuItem();
+            tallennaNimelläToolStripMenuItem = new ToolStripMenuItem();
+            toolStripMenuItem2 = new ToolStripSeparator();
+            tulostuksenEsikatseluToolStripMenuItem = new ToolStripMenuItem();
+            tulostaToolStripMenuItem = new ToolStripMenuItem();
+            toolStripMenuItem3 = new ToolStripSeparator();
+            poistuToolStripMenuItem = new ToolStripMenuItem();
+            editToolStripMenuItem = new ToolStripMenuItem();
+            undoToolStripMenuItem = new ToolStripMenuItem();
+            redoToolStripMenuItem = new ToolStripMenuItem();
+            toolStripMenuItem1 = new ToolStripSeparator();
+            kopioiToolStripMenuItem = new ToolStripMenuItem();
+            leikkaaToolStripMenuItem = new ToolStripMenuItem();
+            liitaToolStripMenuItem = new ToolStripMenuItem();
+            poistaToolStripMenuItem = new ToolStripMenuItem();
+            valitseKaikkiToolStripMenuItem = new ToolStripMenuItem();
+            formatToolStripMenuItem = new ToolStripMenuItem();
+            wordWrapToolStripMenuItem = new ToolStripMenuItem();
+            fontToolStripMenuItem = new ToolStripMenuItem();
+            tekstinRivitysToolStripMenuItem = new ToolStripMenuItem();
+            helpToolStripMenuItem = new ToolStripMenuItem();
+            infoToolStripMenuItem = new ToolStripMenuItem();
+            printDialog1 = new PrintDialog();
+            printDocument1 = new System.Drawing.Printing.PrintDocument();
+            printPreviewDialog1 = new PrintPreviewDialog();
+            fontDialog1 = new FontDialog();
+            openFileDialog1 = new OpenFileDialog();
+            saveFileDialog1 = new SaveFileDialog();
+            menuStrip1.SuspendLayout();
+            SuspendLayout();
             // 
             // NoteRTB
             // 
-            this.NoteRTB.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.NoteRTB.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.NoteRTB.Location = new System.Drawing.Point(0, 24);
-            this.NoteRTB.Name = "NoteRTB";
-            this.NoteRTB.Size = new System.Drawing.Size(800, 426);
-            this.NoteRTB.TabIndex = 0;
-            this.NoteRTB.Text = "";
+            NoteRTB.Dock = DockStyle.Fill;
+            NoteRTB.Location = new Point(0, 28);
+            NoteRTB.Name = "NoteRTB";
+            NoteRTB.Size = new Size(1300, 670);
+            NoteRTB.TabIndex = 0;
+            NoteRTB.Text = "";
+            NoteRTB.WordWrap = false;
+            NoteRTB.TextChanged += NoteRTB_TextChanged;
             // 
             // menuStrip1
             // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.uusiToolStripMenuItem,
-            this.muokkaaToolStripMenuItem,
-            this.muotoileToolStripMenuItem,
-            this.apuaToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
-            this.menuStrip1.TabIndex = 1;
-            this.menuStrip1.Text = "menuStrip1";
+            menuStrip1.ImageScalingSize = new Size(20, 20);
+            menuStrip1.Items.AddRange(new ToolStripItem[] { fileToolStripMenuItem, editToolStripMenuItem, formatToolStripMenuItem, helpToolStripMenuItem });
+            menuStrip1.Location = new Point(0, 0);
+            menuStrip1.Name = "menuStrip1";
+            menuStrip1.Size = new Size(1300, 28);
+            menuStrip1.TabIndex = 1;
+            menuStrip1.Text = "menuStrip1";
+            // 
+            // fileToolStripMenuItem
+            // 
+            fileToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { uusiToolStripMenuItem, avaaToolStripMenuItem, tallennaToolStripMenuItem, tallennaNimelläToolStripMenuItem, toolStripMenuItem2, tulostuksenEsikatseluToolStripMenuItem, tulostaToolStripMenuItem, toolStripMenuItem3, poistuToolStripMenuItem });
+            fileToolStripMenuItem.Name = "fileToolStripMenuItem";
+            fileToolStripMenuItem.Size = new Size(46, 24);
+            fileToolStripMenuItem.Text = "File";
             // 
             // uusiToolStripMenuItem
             // 
-            this.uusiToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.uusiToolStripMenuItem1,
-            this.avaaToolStripMenuItem1,
-            this.avaaToolStripMenuItem,
-            this.tallennaNimelläToolStripMenuItem,
-            this.toolStripMenuItem1,
-            this.tulostukseEsikatseluToolStripMenuItem,
-            this.tulostaToolStripMenuItem,
-            this.toolStripMenuItem2,
-            this.poistuToolStripMenuItem});
-            this.uusiToolStripMenuItem.Name = "uusiToolStripMenuItem";
-            this.uusiToolStripMenuItem.Size = new System.Drawing.Size(64, 20);
-            this.uusiToolStripMenuItem.Text = "Tiedosto";
+            uusiToolStripMenuItem.Name = "uusiToolStripMenuItem";
+            uusiToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.N;
+            uusiToolStripMenuItem.Size = new Size(181, 26);
+            uusiToolStripMenuItem.Text = "New";
+            uusiToolStripMenuItem.Click += uusiToolStripMenuItem_Click;
             // 
             // avaaToolStripMenuItem
             // 
-            this.avaaToolStripMenuItem.Name = "avaaToolStripMenuItem";
-            this.avaaToolStripMenuItem.Size = new System.Drawing.Size(191, 22);
-            this.avaaToolStripMenuItem.Text = "Save";
+            avaaToolStripMenuItem.Name = "avaaToolStripMenuItem";
+            avaaToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.O;
+            avaaToolStripMenuItem.Size = new Size(181, 26);
+            avaaToolStripMenuItem.Text = "Open";
+            avaaToolStripMenuItem.Click += avaaToolStripMenuItem_Click;
             // 
-            // avaaToolStripMenuItem1
+            // tallennaToolStripMenuItem
             // 
-            this.avaaToolStripMenuItem1.Name = "avaaToolStripMenuItem1";
-            this.avaaToolStripMenuItem1.Size = new System.Drawing.Size(191, 22);
-            this.avaaToolStripMenuItem1.Text = "Open";
+            tallennaToolStripMenuItem.Name = "tallennaToolStripMenuItem";
+            tallennaToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.S;
+            tallennaToolStripMenuItem.Size = new Size(181, 26);
+            tallennaToolStripMenuItem.Text = "Save";
+            tallennaToolStripMenuItem.Click += tallennaToolStripMenuItem_Click;
             // 
             // tallennaNimelläToolStripMenuItem
             // 
-            this.tallennaNimelläToolStripMenuItem.Name = "tallennaNimelläToolStripMenuItem";
-            this.tallennaNimelläToolStripMenuItem.Size = new System.Drawing.Size(191, 22);
-            this.tallennaNimelläToolStripMenuItem.Text = "Save";
-            // 
-            // toolStripMenuItem1
-            // 
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(188, 6);
-            // 
-            // uusiToolStripMenuItem1
-            // 
-            this.uusiToolStripMenuItem1.Name = "uusiToolStripMenuItem1";
-            this.uusiToolStripMenuItem1.Size = new System.Drawing.Size(191, 22);
-            this.uusiToolStripMenuItem1.Text = "New";
-            // 
-            // tulostaToolStripMenuItem
-            // 
-            this.tulostaToolStripMenuItem.Name = "tulostaToolStripMenuItem";
-            this.tulostaToolStripMenuItem.Size = new System.Drawing.Size(191, 22);
-            this.tulostaToolStripMenuItem.Text = "Tulosta";
-            // 
-            // tulostukseEsikatseluToolStripMenuItem
-            // 
-            this.tulostukseEsikatseluToolStripMenuItem.Name = "tulostukseEsikatseluToolStripMenuItem";
-            this.tulostukseEsikatseluToolStripMenuItem.Size = new System.Drawing.Size(191, 22);
-            this.tulostukseEsikatseluToolStripMenuItem.Text = "Tulostuksen esikatselu";
+            tallennaNimelläToolStripMenuItem.Name = "tallennaNimelläToolStripMenuItem";
+            tallennaNimelläToolStripMenuItem.Size = new Size(181, 26);
+            tallennaNimelläToolStripMenuItem.Text = "Save As...";
+            tallennaNimelläToolStripMenuItem.Click += tallennaNimelläToolStripMenuItem_Click;
             // 
             // toolStripMenuItem2
             // 
-            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(188, 6);
+            toolStripMenuItem2.Name = "toolStripMenuItem2";
+            toolStripMenuItem2.Size = new Size(178, 6);
             // 
-            // poistuToolStripMenuItem
+            // tulostuksenEsikatseluToolStripMenuItem
             // 
-            this.poistuToolStripMenuItem.Name = "poistuToolStripMenuItem";
-            this.poistuToolStripMenuItem.Size = new System.Drawing.Size(191, 22);
-            this.poistuToolStripMenuItem.Text = "Poistu";
+            tulostuksenEsikatseluToolStripMenuItem.Name = "tulostuksenEsikatseluToolStripMenuItem";
+            tulostuksenEsikatseluToolStripMenuItem.Size = new Size(181, 26);
+            tulostuksenEsikatseluToolStripMenuItem.Text = "Print Preview";
+            tulostuksenEsikatseluToolStripMenuItem.Click += tulostuksenEsikatseluToolStripMenuItem_Click;
             // 
-            // muokkaaToolStripMenuItem
+            // tulostaToolStripMenuItem
             // 
-            this.muokkaaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.undoToolStripMenuItem,
-            this.redoToolStripMenuItem,
-            this.toolStripMenuItem3,
-            this.copyToolStripMenuItem,
-            this.cutToolStripMenuItem,
-            this.pasteToolStripMenuItem,
-            this.deleteToolStripMenuItem,
-            this.cropAllToolStripMenuItem});
-            this.muokkaaToolStripMenuItem.Name = "muokkaaToolStripMenuItem";
-            this.muokkaaToolStripMenuItem.Size = new System.Drawing.Size(68, 20);
-            this.muokkaaToolStripMenuItem.Text = "Muokkaa";
-            // 
-            // muotoileToolStripMenuItem
-            // 
-            this.muotoileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.kirjasinToolStripMenuItem,
-            this.tekstinKorotusToolStripMenuItem,
-            this.tekstinRivitysToolStripMenuItem});
-            this.muotoileToolStripMenuItem.Name = "muotoileToolStripMenuItem";
-            this.muotoileToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
-            this.muotoileToolStripMenuItem.Text = "Muotoile";
-            // 
-            // undoToolStripMenuItem
-            // 
-            this.undoToolStripMenuItem.Name = "undoToolStripMenuItem";
-            this.undoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.undoToolStripMenuItem.Text = "Undo";
-            // 
-            // redoToolStripMenuItem
-            // 
-            this.redoToolStripMenuItem.Name = "redoToolStripMenuItem";
-            this.redoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.redoToolStripMenuItem.Text = "Redo";
+            tulostaToolStripMenuItem.Name = "tulostaToolStripMenuItem";
+            tulostaToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.P;
+            tulostaToolStripMenuItem.Size = new Size(181, 26);
+            tulostaToolStripMenuItem.Text = "Print";
+            tulostaToolStripMenuItem.Click += tulostaToolStripMenuItem_Click;
             // 
             // toolStripMenuItem3
             // 
-            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(177, 6);
+            toolStripMenuItem3.Name = "toolStripMenuItem3";
+            toolStripMenuItem3.Size = new Size(178, 6);
             // 
-            // copyToolStripMenuItem
+            // poistuToolStripMenuItem
             // 
-            this.copyToolStripMenuItem.Name = "copyToolStripMenuItem";
-            this.copyToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.copyToolStripMenuItem.Text = "Copy";
+            poistuToolStripMenuItem.Name = "poistuToolStripMenuItem";
+            poistuToolStripMenuItem.ShortcutKeys = Keys.Alt | Keys.F4;
+            poistuToolStripMenuItem.Size = new Size(181, 26);
+            poistuToolStripMenuItem.Text = "Exit";
+            poistuToolStripMenuItem.Click += poistuToolStripMenuItem_Click;
             // 
-            // cutToolStripMenuItem
+            // editToolStripMenuItem
             // 
-            this.cutToolStripMenuItem.Name = "cutToolStripMenuItem";
-            this.cutToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.cutToolStripMenuItem.Text = "Cut";
+            editToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { undoToolStripMenuItem, redoToolStripMenuItem, toolStripMenuItem1, kopioiToolStripMenuItem, leikkaaToolStripMenuItem, liitaToolStripMenuItem, poistaToolStripMenuItem, valitseKaikkiToolStripMenuItem });
+            editToolStripMenuItem.Name = "editToolStripMenuItem";
+            editToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.Z;
+            editToolStripMenuItem.Size = new Size(49, 24);
+            editToolStripMenuItem.Text = "Edit";
             // 
-            // pasteToolStripMenuItem
+            // undoToolStripMenuItem
             // 
-            this.pasteToolStripMenuItem.Name = "pasteToolStripMenuItem";
-            this.pasteToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.pasteToolStripMenuItem.Text = "Paste";
+            undoToolStripMenuItem.Name = "undoToolStripMenuItem";
+            undoToolStripMenuItem.Size = new Size(206, 26);
+            undoToolStripMenuItem.Text = "Undo";
+            undoToolStripMenuItem.Click += undoToolStripMenuItem_Click;
             // 
-            // deleteToolStripMenuItem
+            // redoToolStripMenuItem
             // 
-            this.deleteToolStripMenuItem.Name = "deleteToolStripMenuItem";
-            this.deleteToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.deleteToolStripMenuItem.Text = "Delete";
+            redoToolStripMenuItem.Name = "redoToolStripMenuItem";
+            redoToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.Y;
+            redoToolStripMenuItem.Size = new Size(206, 26);
+            redoToolStripMenuItem.Text = "Redo";
+            redoToolStripMenuItem.Click += redoToolStripMenuItem_Click;
             // 
-            // cropAllToolStripMenuItem
+            // toolStripMenuItem1
             // 
-            this.cropAllToolStripMenuItem.Name = "cropAllToolStripMenuItem";
-            this.cropAllToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.cropAllToolStripMenuItem.Text = "Crop All";
+            toolStripMenuItem1.Name = "toolStripMenuItem1";
+            toolStripMenuItem1.Size = new Size(203, 6);
             // 
-            // kirjasinToolStripMenuItem
+            // kopioiToolStripMenuItem
             // 
-            this.kirjasinToolStripMenuItem.Name = "kirjasinToolStripMenuItem";
-            this.kirjasinToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.kirjasinToolStripMenuItem.Text = "Kirjasin";
+            kopioiToolStripMenuItem.Enabled = false;
+            kopioiToolStripMenuItem.Name = "kopioiToolStripMenuItem";
+            kopioiToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.C;
+            kopioiToolStripMenuItem.Size = new Size(206, 26);
+            kopioiToolStripMenuItem.Text = "Copy";
+            kopioiToolStripMenuItem.Click += kopioiToolStripMenuItem_Click;
             // 
-            // tekstinKorotusToolStripMenuItem
+            // leikkaaToolStripMenuItem
             // 
-            this.tekstinKorotusToolStripMenuItem.Name = "tekstinKorotusToolStripMenuItem";
-            this.tekstinKorotusToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.tekstinKorotusToolStripMenuItem.Text = "Tekstin korotus";
+            leikkaaToolStripMenuItem.Enabled = false;
+            leikkaaToolStripMenuItem.Name = "leikkaaToolStripMenuItem";
+            leikkaaToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.X;
+            leikkaaToolStripMenuItem.Size = new Size(206, 26);
+            leikkaaToolStripMenuItem.Text = "Cut";
+            leikkaaToolStripMenuItem.Click += leikkaaToolStripMenuItem_Click;
+            // 
+            // liitaToolStripMenuItem
+            // 
+            liitaToolStripMenuItem.Name = "liitaToolStripMenuItem";
+            liitaToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.V;
+            liitaToolStripMenuItem.Size = new Size(206, 26);
+            liitaToolStripMenuItem.Text = "Paste";
+            liitaToolStripMenuItem.Click += liitaToolStripMenuItem_Click;
+            // 
+            // poistaToolStripMenuItem
+            // 
+            poistaToolStripMenuItem.Name = "poistaToolStripMenuItem";
+            poistaToolStripMenuItem.Size = new Size(206, 26);
+            poistaToolStripMenuItem.Text = "Selected Text";
+            poistaToolStripMenuItem.Click += poistaToolStripMenuItem_Click;
+            // 
+            // valitseKaikkiToolStripMenuItem
+            // 
+            valitseKaikkiToolStripMenuItem.Name = "valitseKaikkiToolStripMenuItem";
+            valitseKaikkiToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.A;
+            valitseKaikkiToolStripMenuItem.Size = new Size(206, 26);
+            valitseKaikkiToolStripMenuItem.Text = "Select All";
+            valitseKaikkiToolStripMenuItem.Click += valitseKaikkiToolStripMenuItem_Click;
+            // 
+            // formatToolStripMenuItem
+            // 
+            formatToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { wordWrapToolStripMenuItem, fontToolStripMenuItem, tekstinRivitysToolStripMenuItem });
+            formatToolStripMenuItem.Name = "formatToolStripMenuItem";
+            formatToolStripMenuItem.Size = new Size(70, 24);
+            formatToolStripMenuItem.Text = "Format";
+            // 
+            // wordWrapToolStripMenuItem
+            // 
+            wordWrapToolStripMenuItem.Name = "wordWrapToolStripMenuItem";
+            wordWrapToolStripMenuItem.Size = new Size(224, 26);
+            wordWrapToolStripMenuItem.Text = "Word Wrap";
+            // 
+            // fontToolStripMenuItem
+            // 
+            fontToolStripMenuItem.Name = "fontToolStripMenuItem";
+            fontToolStripMenuItem.Size = new Size(224, 26);
+            fontToolStripMenuItem.Text = "Font....";
+            fontToolStripMenuItem.Click += fontToolStripMenuItem_Click;
             // 
             // tekstinRivitysToolStripMenuItem
             // 
-            this.tekstinRivitysToolStripMenuItem.Name = "tekstinRivitysToolStripMenuItem";
-            this.tekstinRivitysToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.tekstinRivitysToolStripMenuItem.Text = "Tekstin rivitys";
+            tekstinRivitysToolStripMenuItem.Name = "tekstinRivitysToolStripMenuItem";
+            tekstinRivitysToolStripMenuItem.Size = new Size(224, 26);
+            tekstinRivitysToolStripMenuItem.Text = "Tekstin rivitys";
+            tekstinRivitysToolStripMenuItem.Click += tekstinRivitysToolStripMenuItem_Click;
             // 
-            // apuaToolStripMenuItem
+            // helpToolStripMenuItem
             // 
-            this.apuaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tietoaToolStripMenuItem});
-            this.apuaToolStripMenuItem.Name = "apuaToolStripMenuItem";
-            this.apuaToolStripMenuItem.Size = new System.Drawing.Size(47, 20);
-            this.apuaToolStripMenuItem.Text = "Apua";
+            helpToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { infoToolStripMenuItem });
+            helpToolStripMenuItem.Name = "helpToolStripMenuItem";
+            helpToolStripMenuItem.Size = new Size(55, 24);
+            helpToolStripMenuItem.Text = "Help";
             // 
-            // tietoaToolStripMenuItem
+            // infoToolStripMenuItem
             // 
-            this.tietoaToolStripMenuItem.Name = "tietoaToolStripMenuItem";
-            this.tietoaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.tietoaToolStripMenuItem.Text = "Tietoa";
+            infoToolStripMenuItem.Name = "infoToolStripMenuItem";
+            infoToolStripMenuItem.Size = new Size(118, 26);
+            infoToolStripMenuItem.Text = "Info";
+            // 
+            // printDialog1
+            // 
+            printDialog1.UseEXDialog = true;
+            // 
+            // printDocument1
+            // 
+            printDocument1.PrintPage += printDocument1_PrintPage;
+            // 
+            // printPreviewDialog1
+            // 
+            printPreviewDialog1.AutoScrollMargin = new Size(0, 0);
+            printPreviewDialog1.AutoScrollMinSize = new Size(0, 0);
+            printPreviewDialog1.ClientSize = new Size(400, 300);
+            printPreviewDialog1.Enabled = true;
+            printPreviewDialog1.Icon = (Icon)resources.GetObject("printPreviewDialog1.Icon");
+            printPreviewDialog1.Name = "printPreviewDialog1";
+            printPreviewDialog1.Visible = false;
+            // 
+            // openFileDialog1
+            // 
+            openFileDialog1.FileName = "openFileDialog1";
             // 
             // NoteForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.NoteRTB);
-            this.Controls.Add(this.menuStrip1);
-            this.MainMenuStrip = this.menuStrip1;
-            this.Name = "NoteForm";
-            this.Text = "Notepad";
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(13F, 31F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(1300, 698);
+            Controls.Add(NoteRTB);
+            Controls.Add(menuStrip1);
+            Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            MainMenuStrip = menuStrip1;
+            Margin = new Padding(5);
+            Name = "NoteForm";
+            Text = "Notepad";
+            menuStrip1.ResumeLayout(false);
+            menuStrip1.PerformLayout();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
         private RichTextBox NoteRTB;
         private MenuStrip menuStrip1;
-        private ToolStripMenuItem uusiToolStripMenuItem;
-        private ToolStripMenuItem uusiToolStripMenuItem1;
-        private ToolStripMenuItem avaaToolStripMenuItem1;
-        private ToolStripMenuItem avaaToolStripMenuItem;
-        private ToolStripMenuItem tallennaNimelläToolStripMenuItem;
-        private ToolStripSeparator toolStripMenuItem1;
-        private ToolStripMenuItem tulostukseEsikatseluToolStripMenuItem;
-        private ToolStripMenuItem tulostaToolStripMenuItem;
-        private ToolStripSeparator toolStripMenuItem2;
-        private ToolStripMenuItem poistuToolStripMenuItem;
-        private ToolStripMenuItem muokkaaToolStripMenuItem;
+        private ToolStripMenuItem fileToolStripMenuItem;
+        private ToolStripMenuItem editToolStripMenuItem;
         private ToolStripMenuItem undoToolStripMenuItem;
         private ToolStripMenuItem redoToolStripMenuItem;
+        private ToolStripSeparator toolStripMenuItem1;
+        private ToolStripMenuItem kopioiToolStripMenuItem;
+        private ToolStripMenuItem leikkaaToolStripMenuItem;
+        private ToolStripMenuItem liitaToolStripMenuItem;
+        private ToolStripMenuItem poistaToolStripMenuItem;
+        private ToolStripMenuItem valitseKaikkiToolStripMenuItem;
+        private ToolStripMenuItem formatToolStripMenuItem;
+        private ToolStripMenuItem wordWrapToolStripMenuItem;
+        private ToolStripMenuItem fontToolStripMenuItem;
+        private ToolStripMenuItem helpToolStripMenuItem;
+        private ToolStripMenuItem infoToolStripMenuItem;
+        private ToolStripMenuItem uusiToolStripMenuItem;
+        private ToolStripMenuItem avaaToolStripMenuItem;
+        private ToolStripMenuItem tallennaToolStripMenuItem;
+        private ToolStripMenuItem tallennaNimelläToolStripMenuItem;
+        private ToolStripSeparator toolStripMenuItem2;
+        private ToolStripMenuItem tulostuksenEsikatseluToolStripMenuItem;
+        private ToolStripMenuItem tulostaToolStripMenuItem;
         private ToolStripSeparator toolStripMenuItem3;
-        private ToolStripMenuItem copyToolStripMenuItem;
-        private ToolStripMenuItem cutToolStripMenuItem;
-        private ToolStripMenuItem pasteToolStripMenuItem;
-        private ToolStripMenuItem deleteToolStripMenuItem;
-        private ToolStripMenuItem cropAllToolStripMenuItem;
-        private ToolStripMenuItem muotoileToolStripMenuItem;
-        private ToolStripMenuItem kirjasinToolStripMenuItem;
-        private ToolStripMenuItem tekstinKorotusToolStripMenuItem;
+        private ToolStripMenuItem poistuToolStripMenuItem;
+        private PrintDialog printDialog1;
+        private System.Drawing.Printing.PrintDocument printDocument1;
+        private PrintPreviewDialog printPreviewDialog1;
+        private FontDialog fontDialog1;
+        private OpenFileDialog openFileDialog1;
+        private SaveFileDialog saveFileDialog1;
         private ToolStripMenuItem tekstinRivitysToolStripMenuItem;
-        private ToolStripMenuItem apuaToolStripMenuItem;
-        private ToolStripMenuItem tietoaToolStripMenuItem;
     }
 }
