@@ -1,3 +1,4 @@
+using System.Drawing.Printing;
 using System.Linq.Expressions;
 using System.Windows.Forms.Design;
 
@@ -9,6 +10,7 @@ namespace Muistio
         private SaveFileDialog saveFileDialog;
         private FontDialog fontDialog;
         public NoteForm()
+
         {
             InitializeComponent();
         }
@@ -16,21 +18,20 @@ namespace Muistio
         {
             try
             {
-                if(!string.IsNullOrEmpty(richTB.Text)) 
+                if (!string.IsNullOrEmpty(richTB.Text))
                 {
                     MessageBox.Show("Sinun tulee tallentaa ensin!");
-                }                
+                }
                 else
                 {
-                richTB.Text = string.Empty;
-                Text = "Nimetön";
-                }               
-            }
-                catch (Exception ex) 
-                {
-                    MessageBox.Show("Virhe: " + ex);
+                    richTB.Text = string.Empty;
+                    Text = "Nimetön";
                 }
-
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Virhe: " + ex);
+            }
 
         }
         private void TallennaTiedosto()
@@ -41,24 +42,24 @@ namespace Muistio
                 {
                     saveFileDialog = new SaveFileDialog();
                     saveFileDialog.Filter = "Tekstitiedosto (*.txt) | *.txt|Rikas rakas tekstiformaatti (*.rtf) | *.rtf";
-                if (saveFileDialog.ShowDialog() == DialogResult.OK) 
-                    { 
-                    File.WriteAllText(saveFileDialog.FileName, richTB.Text);
+                    if (saveFileDialog.ShowDialog() == DialogResult.OK)
+                    {
+                        File.WriteAllText(saveFileDialog.FileName, richTB.Text);
                     }
                 }
-            
+
             }
-                catch (Exception ex)
-                {
-                    MessageBox.Show("Virhe: " + ex);
-                }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Virhe: " + ex);
+            }
         }
         private void AvaaTiedosto()
         {
             try
             {
                 openFileDialog = new OpenFileDialog();
-                if(openFileDialog.ShowDialog() == DialogResult.OK)
+                if (openFileDialog.ShowDialog() == DialogResult.OK)
                 {
                     richTB.Text = File.ReadAllText(openFileDialog.FileName);
                     Text = openFileDialog.FileName;
@@ -70,19 +71,42 @@ namespace Muistio
                 MessageBox.Show("Virhe avattaessa tiedostoa: " + ex);
             }
         }
-            private void NoteForm_Load(object sender, EventArgs e)
+        private void NoteForm_Load(object sender, EventArgs e)
         {
-            fontDialog = new FontDialog();  
+            fontDialog = new FontDialog();
         }
 
         private void uusiToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            UusiTiedosto();
+            if(TekstilaatikkoRTB.Text = "")
+            { tallennaToolStripMenuItem_Click(sender, e);
+                TekstilaatiokkoRTB.Text = "";
+            }
+            else
+            {
+                {
+                    TekstilaatikkoRTB.Text = "";
+                }
+                UusiTiedosto();
+            }
         }
 
         private void avaaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            AvaaTiedosto(); 
+            using (OpenFileDialog atk = new OpenFileDialog()
+            { Filter = "Rikastekstiformaatti| *.rtf", ValidateNames = true, Multiselect = false })
+            {
+                if (atk.ShowDialog() == DialogResult.OK)
+                {
+                    using (StreamReader v1 = new StreamReader(atk.FileName))
+                    {
+                        tiedostoPolku = atk.FileName;
+                        Task<string> teksti = v1.ReadToEndAsync();
+                        richTB.Rtf = teksti.Result;
+                    }
+                }
+            }
+            AvaaTiedosto();
         }
 
         private void tallennaToolStripMenuItem_Click(object sender, EventArgs e)
@@ -92,7 +116,7 @@ namespace Muistio
 
         private void lopetaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            try 
+            try
             {
                 if (!string.IsNullOrEmpty(richTB.Text))
                 {
@@ -110,9 +134,9 @@ namespace Muistio
 
         private void kirjasinToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            try 
+            try
             {
-                if(fontDialog.ShowDialog() == DialogResult.OK)
+                if (fontDialog.ShowDialog() == DialogResult.OK)
                 {
                     richTB.Font = fontDialog.Font;
                 }
@@ -121,6 +145,36 @@ namespace Muistio
             {
                 MessageBox.Show("Virhe: " + ex);
             }
+        }
+
+        private void tulostaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            PrintPreviewDialog1.Document = PrintDocument1;
+            if(printDialog1.ShowDialog() == DialogResult.OK)
+            {
+                PrintDocument1.Print();
+            }
+        }
+
+        private void tallennaNimelläToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            using (SaveFileDialog ttk = new SaveFileDialog()
+            { Filter = "TextDocument|*.txt", ValidateNames = true })
+            {
+                if (ttk.ShowDialog() == DialogResult.OK)
+            }
+            using (StreamWriter jonokirjoittaja = new StreamWriter(tkk.FileName))
+            {
+                jonokirjoittaja.WriteLineAsync(TekstilaatikkoRTB.Text);
+            }
+
+            }
+        }
+
+        private void tulostaEsikatseluToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+        printPreviewDialog1.Document = printDocument1;
+        printPreviewDialog1.ShowDialog();
         }
     }
 }
