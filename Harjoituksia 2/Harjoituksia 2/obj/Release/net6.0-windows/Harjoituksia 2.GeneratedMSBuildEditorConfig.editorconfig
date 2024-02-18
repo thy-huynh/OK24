@@ -14,4 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Harjoituksia_2
-build_property.ProjectDir = C:\Users\pham.huynh\source\Repos\Ok24\Harjoituksia 2\Harjoituksia 2\
+build_property.ProjectDir = C:\Users\thy-h\Source\Repos\Ok24\Harjoituksia 2\Harjoituksia 2\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

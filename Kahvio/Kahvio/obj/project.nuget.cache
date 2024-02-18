@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "VCmq0FnERf0AIV6qb2SOFrlIF0vQUNCbl+0xAkNl9KvcRcJ6cb6jEQwkdfuQmoWMBkUVwc3h5BuGTWekB0VZHQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\thy-h\\source\\repos\\Ok24\\Kahvio\\Kahvio\\Kahvio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\thy-h\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.26\\microsoft.windowsdesktop.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\thy-h\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.26\\microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\thy-h\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.26\\microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\thy-h\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.26\\microsoft.netcore.app.host.win-x64.6.0.26.nupkg.sha512"
+  ],
+  "logs": []
+}

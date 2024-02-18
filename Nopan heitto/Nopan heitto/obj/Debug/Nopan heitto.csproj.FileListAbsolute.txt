@@ -1,0 +1,10 @@
+C:\Users\thy-h\source\repos\Ok24\Nopan heitto\Nopan heitto\bin\Debug\Nopan heitto.exe.config
+C:\Users\thy-h\source\repos\Ok24\Nopan heitto\Nopan heitto\bin\Debug\Nopan heitto.exe
+C:\Users\thy-h\source\repos\Ok24\Nopan heitto\Nopan heitto\bin\Debug\Nopan heitto.pdb
+C:\Users\thy-h\source\repos\Ok24\Nopan heitto\Nopan heitto\obj\Debug\Nopan heitto.csproj.AssemblyReference.cache
+C:\Users\thy-h\source\repos\Ok24\Nopan heitto\Nopan heitto\obj\Debug\Nopan_heitto.Form1.resources
+C:\Users\thy-h\source\repos\Ok24\Nopan heitto\Nopan heitto\obj\Debug\Nopan_heitto.Properties.Resources.resources
+C:\Users\thy-h\source\repos\Ok24\Nopan heitto\Nopan heitto\obj\Debug\Nopan heitto.csproj.GenerateResource.cache
+C:\Users\thy-h\source\repos\Ok24\Nopan heitto\Nopan heitto\obj\Debug\Nopan heitto.csproj.CoreCompileInputs.cache
+C:\Users\thy-h\source\repos\Ok24\Nopan heitto\Nopan heitto\obj\Debug\Nopan heitto.exe
+C:\Users\thy-h\source\repos\Ok24\Nopan heitto\Nopan heitto\obj\Debug\Nopan heitto.pdb
